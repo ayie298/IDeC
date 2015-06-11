@@ -1,0 +1,28 @@
+
+<script type="text/javascript">
+    $(document).ready(function(){
+		$("#btn_simpan,#btn_ulang").jqxInput({ theme: 'fresh', height: '30px', width: '100px' }); 
+	});
+</script>
+<div style="padding:5px;text-align:center">
+<form method="POST" id="frmData">
+	<button type="button" id="btn_simpan" name="btn_simpan"> Simpan </button>
+	<button type="reset" id="btn_ulang"> Ulang </button>
+	<br />
+	<br />
+	<table border="0" cellpadding="0" cellspacing="8" align="center">
+		<tr>
+			<td>
+
+				<table border="0" cellpadding="2" cellspacing="2">
+					<tr>
+						<td>Realisasi Anggaran TW-II</td>
+						<td>:</td>
+						<td>Rp. <input type="text" placeholder="Rp. 100.000.000" style="width:250px;height:30px"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</form>
+</div>pe
